@@ -1,0 +1,101 @@
+/* Basic reset */
+body, h1, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full viewport height */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Center container and add padding */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading styles */
+.heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* OTP display area */
+.display {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    color: #444;
+}
+
+/* Button container */
+.buttons {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;  
+    align-items: center;
+}
+
+/* Individual button styles */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Specific button styles for each */
+.generate {
+    background-color: #008CBA;
+}
+
+.generate:hover {
+    background-color: #007bb5;
+}
+
+.regenerate {
+    background-color: #ff9800;
+}
+
+.regenerate:hover {
+    background-color: #ed8405ec;
+}
+
+.clear {
+    background-color: #f44336;
+}
+
+.clear:hover {
+    background-color: #d23936;
+}
+
+.copy {
+    background-color: #9C27B0;
+}
+
+.copy:hover {
+    background-color: #7e1e98;
+}
